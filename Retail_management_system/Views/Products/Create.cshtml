@@ -1,0 +1,186 @@
+﻿@model Retail_management_system.Models.Product
+
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<div class="container mt-4 mb-5">
+
+    <div class="mb-4">
+        <h1 class="fw-bold">Add Product</h1>
+        <p class="text-muted">
+            Add a new product to the ABC Retail system.
+        </p>
+    </div>
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-body p-4">
+
+            <form asp-controller="Products"
+                  asp-action="Create"
+                  method="post"
+                  enctype="multipart/form-data">
+
+                @Html.AntiForgeryToken()
+
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger"
+                     role="alert"></div>
+
+                <div class="row">
+
+                    <!-- Product Name -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Name"
+                               class="form-label fw-semibold">
+                            Product Name
+                        </label>
+
+                        <input asp-for="Name"
+                               class="form-control"
+                               placeholder="Enter product name" />
+
+                        <span asp-validation-for="Name"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Category -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Category"
+                               class="form-label fw-semibold">
+                            Category
+                        </label>
+
+                        <input asp-for="Category"
+                               class="form-control"
+                               placeholder="e.g. Electronics" />
+
+                        <span asp-validation-for="Category"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Description -->
+                    <div class="col-12 mb-3">
+
+                        <label asp-for="Description"
+                               class="form-label fw-semibold">
+                            Description
+                        </label>
+
+                        <textarea asp-for="Description"
+                                  class="form-control"
+                                  rows="4"
+                                  placeholder="Enter product description"></textarea>
+
+                        <span asp-validation-for="Description"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Price -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Price"
+                               class="form-label fw-semibold">
+                            Price (R)
+                        </label>
+
+                        <input asp-for="Price"
+                               type="number"
+                               step="0.01"
+                               min="0"
+                               class="form-control"
+                               placeholder="0.00" />
+
+                        <span asp-validation-for="Price"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Stock -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="StockQuantity"
+                               class="form-label fw-semibold">
+                            Stock Quantity
+                        </label>
+
+                        <input asp-for="StockQuantity"
+                               type="number"
+                               min="0"
+                               class="form-control"
+                               placeholder="Enter quantity" />
+
+                        <span asp-validation-for="StockQuantity"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Product Image -->
+                    <div class="col-12 mb-3">
+
+                        <label for="imageFile"
+                               class="form-label fw-semibold">
+                            Product Image
+                        </label>
+
+                        <input type="file"
+                               id="imageFile"
+                               name="imageFile"
+                               class="form-control"
+                               accept="image/*" />
+
+                        <div class="form-text">
+                            Upload a product image. JPG, JPEG, PNG and WEBP are supported.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-2 mt-3">
+
+                    <button type="submit"
+                            class="btn btn-primary px-4">
+                        Add Product
+                    </button>
+
+                    <a asp-controller="Products"
+                       asp-action="Index"
+                       class="btn btn-outline-secondary">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

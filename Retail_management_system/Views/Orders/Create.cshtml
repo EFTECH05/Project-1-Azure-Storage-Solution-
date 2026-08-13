@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Create Order";
+}
+
+<div class="container mt-4 mb-5">
+
+    <!-- Page Header -->
+    <div class="mb-4">
+        <h1 class="fw-bold">Create Order</h1>
+
+        <p class="text-muted">
+            Create a new customer order and send it to Azure Queue Storage.
+        </p>
+    </div>
+
+
+    <!-- Order Form -->
+    <div class="card shadow-sm border-0">
+
+        <div class="card-body p-4">
+
+            <form asp-controller="Orders"
+                  asp-action="Create"
+                  method="post">
+
+                @Html.AntiForgeryToken()
+
+                <!-- Validation Summary -->
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger"
+                     role="alert">
+                </div>
+
+
+                <div class="row">
+
+                    <!-- Customer Name -->
+                    <div class="col-md-6 mb-3">
+
+                        <label for="customerName"
+                               class="form-label fw-semibold">
+                            Customer Name
+                        </label>
+
+                        <input type="text"
+                               id="customerName"
+                               name="customerName"
+                               class="form-control"
+                               placeholder="Enter customer name"
+                               required />
+
+                    </div>
+
+
+                    <!-- Product Name -->
+                    <div class="col-md-6 mb-3">
+
+                        <label for="productName"
+                               class="form-label fw-semibold">
+                            Product Name
+                        </label>
+
+                        <input type="text"
+                               id="productName"
+                               name="productName"
+                               class="form-control"
+                               placeholder="Enter product name"
+                               required />
+
+                    </div>
+
+
+                    <!-- Quantity -->
+                    <div class="col-md-6 mb-3">
+
+                        <label for="quantity"
+                               class="form-label fw-semibold">
+                            Quantity
+                        </label>
+
+                        <input type="number"
+                               id="quantity"
+                               name="quantity"
+                               class="form-control"
+                               min="1"
+                               value="1"
+                               required />
+
+                    </div>
+
+                </div>
+
+
+                <!-- Buttons -->
+                <div class="d-flex flex-wrap gap-2 mt-3">
+
+                    <button type="submit"
+                            class="btn btn-primary px-4">
+                        Create Order
+                    </button>
+
+                    <a asp-controller="Orders"
+                       asp-action="Index"
+                       class="btn btn-outline-secondary">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

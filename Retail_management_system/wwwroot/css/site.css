@@ -1,0 +1,322 @@
+/* =========================================
+   ABC RETAIL - GLOBAL STYLES
+   ========================================= */
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #f6f8fb;
+    color: #212529;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* =========================================
+   BUTTON FOCUS
+   ========================================= */
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.15rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+/* =========================================
+   NAVBAR
+   ========================================= */
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.brand-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar .nav-link {
+    padding: 10px 14px !important;
+    margin-left: 4px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: all 0.2s ease;
+}
+
+    .navbar .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white !important;
+    }
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+main {
+    min-height: calc(100vh - 145px);
+    padding: 20px 0 50px;
+}
+
+
+/* =========================================
+   DASHBOARD HEADER
+   ========================================= */
+
+.dashboard-header {
+    padding: 50px 20px 40px;
+}
+
+.dashboard-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: #212529;
+}
+
+.dashboard-subtitle {
+    max-width: 650px;
+    margin: 15px auto;
+    color: #6c757d;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   DASHBOARD CARDS
+   ========================================= */
+
+.dashboard-card {
+    height: 100%;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+    }
+
+    .dashboard-card .card-body {
+        padding: 28px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+
+    .dashboard-card p {
+        color: #6c757d;
+        line-height: 1.6;
+    }
+
+
+/* =========================================
+   DASHBOARD ICONS
+   ========================================= */
+
+.dashboard-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    background-color: #eaf2ff;
+    color: #0d6efd;
+    font-size: 1.4rem;
+}
+
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.btn {
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.20);
+}
+
+    .btn-primary:hover {
+        transform: translateY(-1px);
+    }
+
+
+/* =========================================
+   CARDS
+   ========================================= */
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+
+/* =========================================
+   TABLES
+   ========================================= */
+
+.table {
+    margin-bottom: 0;
+}
+
+    .table thead th {
+        white-space: nowrap;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .table tbody td {
+        vertical-align: middle;
+        padding: 14px 12px;
+    }
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.site-footer {
+    padding: 25px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+    .site-footer strong {
+        color: #212529;
+    }
+
+.footer-divider {
+    margin: 0 8px;
+    color: #dee2e6;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - TABLETS
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    .navbar .nav-link {
+        margin: 3px 0;
+        padding: 12px 15px !important;
+    }
+
+    .navbar-nav {
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - MOBILE
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    main {
+        padding-top: 10px;
+    }
+
+    .dashboard-header {
+        padding: 35px 15px;
+    }
+
+    .dashboard-subtitle {
+        font-size: 1rem;
+    }
+
+    .dashboard-card .card-body {
+        padding: 22px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - SMALL PHONES
+   ========================================= */
+
+@media (max-width: 575px) {
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .brand-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .dashboard-header {
+        padding: 25px 10px;
+    }
+
+    .dashboard-title {
+        font-size: 2rem;
+    }
+
+    .dashboard-card .card-body {
+        padding: 20px;
+    }
+
+    .site-footer {
+        text-align: center;
+    }
+}

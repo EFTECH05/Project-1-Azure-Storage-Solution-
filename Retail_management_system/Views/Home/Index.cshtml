@@ -1,0 +1,240 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+
+    <!-- Welcome Section -->
+    <div class="text-center mb-5">
+
+        <h1 class="display-4 fw-bold">
+            ABC Retail
+        </h1>
+
+        <p class="lead">
+            Retail Management System
+        </p>
+
+        <p class="text-muted">
+            Manage customers, products, orders and inventory
+            from one central platform.
+        </p>
+
+    </div>
+
+
+    <!-- Dashboard Cards -->
+    <div class="row g-4">
+
+        <!-- Customers -->
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-body text-center">
+
+                    <h3 class="mb-3">
+                        Customers
+                    </h3>
+
+                    <p class="text-muted">
+                        Manage customer profiles and information.
+                    </p>
+
+                    <a asp-controller="Customers"
+                       asp-action="Index"
+                       class="btn btn-primary">
+                        View Customers
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Products -->
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-body text-center">
+
+                    <h3 class="mb-3">
+                        Products
+                    </h3>
+
+                    <p class="text-muted">
+                        Manage products, prices and product images.
+                    </p>
+
+                    <a asp-controller="Products"
+                       asp-action="Index"
+                       class="btn btn-primary">
+                        View Products
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Orders -->
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-body text-center">
+
+                    <h3 class="mb-3">
+                        Orders
+                    </h3>
+
+                    <p class="text-muted">
+                        Create and process customer orders using
+                        Azure Queue Storage.
+                    </p>
+
+                    <a asp-controller="Orders"
+                       asp-action="Index"
+                       class="btn btn-primary">
+                        View Orders
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Inventory -->
+        <div class="col-md-6 col-lg-3">
+
+            <div class="card shadow-sm border-0 h-100">
+
+                <div class="card-body text-center">
+
+                    <h3 class="mb-3">
+                        Inventory
+                    </h3>
+
+                    <p class="text-muted">
+                        Manage inventory and monitor product stock.
+                    </p>
+
+                    <a asp-controller="Inventory"
+                       asp-action="Index"
+                       class="btn btn-primary">
+                        View Inventory
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Azure Services Information -->
+    <div class="card shadow-sm border-0 mt-5">
+
+        <div class="card-body">
+
+            <h4 class="mb-3">
+                ABC Retail Cloud System
+            </h4>
+
+            <p class="text-muted mb-3">
+                This application uses Microsoft Azure Storage services
+                to manage customer data, products, product images,
+                orders, inventory and application logs.
+            </p>
+
+
+            <!-- Azure Services -->
+            <div class="row g-3">
+
+                <!-- Azure Tables -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="border rounded p-3 h-100">
+
+                        <h6 class="fw-bold">
+                            Azure Table Storage
+                        </h6>
+
+                        <p class="text-muted small mb-0">
+                            Stores customer and product information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Azure Blob -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="border rounded p-3 h-100">
+
+                        <h6 class="fw-bold">
+                            Azure Blob Storage
+                        </h6>
+
+                        <p class="text-muted small mb-0">
+                            Stores product images.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Azure Queue -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="border rounded p-3 h-100">
+
+                        <h6 class="fw-bold">
+                            Azure Queue Storage
+                        </h6>
+
+                        <p class="text-muted small mb-0">
+                            Processes order messages asynchronously.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Azure Logs -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="border rounded p-3 h-100">
+
+                        <h6 class="fw-bold">
+                            Azure Storage Logs
+                        </h6>
+
+                        <p class="text-muted small mb-0">
+                            Supports application and storage monitoring.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

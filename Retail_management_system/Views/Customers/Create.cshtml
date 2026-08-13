@@ -1,0 +1,141 @@
+﻿@model Retail_management_system.Models.Customer
+
+@{
+    ViewData["Title"] = "Add Customer";
+}
+
+<div class="container mt-4">
+
+    <div class="mb-4">
+
+        <h1 class="fw-bold">Add Customer</h1>
+
+        <p class="text-muted">
+            Add a new customer to the ABC Retail system.
+        </p>
+
+    </div>
+
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-body p-4">
+
+            <form asp-controller="Customers"
+                  asp-action="Create"
+                  method="post">
+
+                @Html.AntiForgeryToken()
+
+                <div class="row">
+
+                    <!-- Name -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Name"
+                               class="form-label fw-semibold">
+                            Full Name
+                        </label>
+
+                        <input asp-for="Name"
+                               class="form-control"
+                               placeholder="Enter full name" />
+
+                        <span asp-validation-for="Name"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Email"
+                               class="form-label fw-semibold">
+                            Email
+                        </label>
+
+                        <input asp-for="Email"
+                               type="email"
+                               class="form-control"
+                               placeholder="Enter email address" />
+
+                        <span asp-validation-for="Email"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Phone"
+                               class="form-label fw-semibold">
+                            Phone
+                        </label>
+
+                        <input asp-for="Phone"
+                               class="form-control"
+                               placeholder="Enter phone number" />
+
+                        <span asp-validation-for="Phone"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+
+                    <!-- Address -->
+                    <div class="col-md-6 mb-3">
+
+                        <label asp-for="Address"
+                               class="form-label fw-semibold">
+                            Address
+                        </label>
+
+                        <input asp-for="Address"
+                               class="form-control"
+                               placeholder="Enter address" />
+
+                        <span asp-validation-for="Address"
+                              class="text-danger">
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Buttons -->
+
+                <div class="d-flex gap-2 mt-3">
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        Add Customer
+                    </button>
+
+                    <a asp-controller="Customers"
+                       asp-action="Index"
+                       class="btn btn-outline-secondary">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

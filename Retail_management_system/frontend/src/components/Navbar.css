@@ -1,0 +1,161 @@
+﻿/* =========================================
+   MOBILE NAVBAR
+========================================= */
+
+@media (max-width: 750px) {
+
+    .nav-container {
+        min-height: 64px;
+        padding: 0 18px;
+    }
+
+    /* MOBILE MENU */
+
+    .nav-links {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        margin: 0;
+        padding: 12px 18px 18px;
+        background: #ffffff;
+        border-bottom: 1px solid #e5e7eb;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+    }
+
+
+        /* IMPORTANT:
+       Your JSX uses "nav-open"
+    */
+
+        .nav-links.nav-open {
+            display: flex;
+        }
+
+
+        .nav-links a {
+            width: 100%;
+            padding: 14px 12px;
+            border-radius: 7px;
+            color: #475569;
+        }
+
+
+            .nav-links a:hover {
+                background: #f8fafc;
+                color: #2563eb;
+            }
+
+
+            .nav-links a.active {
+                background: #eff6ff;
+                color: #2563eb;
+            }
+
+
+                .nav-links a.active::after {
+                    display: none;
+                }
+
+
+    /* SEARCH */
+
+    .nav-search {
+        width: auto;
+        margin-left: auto;
+    }
+
+
+        .nav-search input {
+            display: none;
+        }
+
+
+    .search-icon {
+        position: static;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+
+    /* SEARCH OPEN */
+
+    .nav-search.search-active {
+        position: absolute;
+        top: 64px;
+        left: 18px;
+        right: 18px;
+        width: auto;
+        padding: 10px;
+        background: white;
+        border-bottom: 1px solid #e5e7eb;
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+        z-index: 1001;
+    }
+
+
+        .nav-search.search-active input {
+            display: block;
+            width: 100%;
+            height: 40px;
+            padding: 0 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 7px;
+            outline: none;
+        }
+
+
+        .nav-search.search-active .search-icon {
+            display: none;
+        }
+
+
+    /* HAMBURGER */
+
+    .menu-button {
+        display: flex;
+        width: 38px;
+        height: 38px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+
+        .menu-button span {
+            width: 22px;
+            height: 2px;
+            background: #0f172a;
+            border-radius: 3px;
+            transition: 0.25s ease;
+        }
+
+
+        /* HAMBURGER → X */
+
+        .menu-button.open span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .menu-button.open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-button.open span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+}
