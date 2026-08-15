@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -190,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -207,6 +211,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-15T23:34:57.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductCard.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\ProductCard.jsx",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Hero.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Hero.jsx",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\index.css",
               "RelativeDocumentMoniker": "frontend\\src\\index.css",
@@ -245,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Header.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Header.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Header.jsx",
@@ -258,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "About.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\About.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\About.jsx",
@@ -271,20 +288,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Footer.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Footer.jsx",
               "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
               "RelativeToolTip": "frontend\\src\\components\\Footer.jsx",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-08-15T23:00:25.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\App.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
@@ -297,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\package-lock.json",
               "RelativeDocumentMoniker": "frontend\\package-lock.json",
@@ -309,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\index.html",
               "RelativeDocumentMoniker": "frontend\\index.html",
@@ -322,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\vite.config.js",
               "RelativeDocumentMoniker": "frontend\\vite.config.js",
@@ -334,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package-lock.json",
               "RelativeDocumentMoniker": "package-lock.json",
@@ -346,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "eslint.config.js",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\eslint.config.js",
               "RelativeDocumentMoniker": "frontend\\eslint.config.js",
@@ -358,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Retail_management_system.csproj.user",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Retail_management_system.csproj.user",
               "RelativeDocumentMoniker": "Retail_management_system.csproj.user",
@@ -370,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -398,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
@@ -422,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -446,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -458,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -470,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -482,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ApplicationLogService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ApplicationLogService.cs",
               "RelativeDocumentMoniker": "Services\\ApplicationLogService.cs",
@@ -494,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "InventoryQueueService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\InventoryQueueService.cs",
               "RelativeDocumentMoniker": "Services\\InventoryQueueService.cs",
@@ -506,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
@@ -518,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Inventory\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\Index.cshtml",
@@ -530,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
@@ -542,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
@@ -554,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
@@ -566,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "OrderQueueService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\OrderQueueService.cs",
               "RelativeDocumentMoniker": "Services\\OrderQueueService.cs",
@@ -578,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BlobStorageService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\BlobStorageService.cs",
               "RelativeDocumentMoniker": "Services\\BlobStorageService.cs",
@@ -590,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -602,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
@@ -614,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ProductTableService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ProductTableService.cs",
               "RelativeDocumentMoniker": "Services\\ProductTableService.cs",
@@ -626,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -638,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Customers\\Create.cshtml",
@@ -650,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "CustomerTableService.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\CustomerTableService.cs",
               "RelativeDocumentMoniker": "Services\\CustomerTableService.cs",
@@ -662,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -674,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
@@ -686,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
@@ -698,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -710,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Customers\\Index.cshtml",
@@ -722,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
@@ -734,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -746,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",

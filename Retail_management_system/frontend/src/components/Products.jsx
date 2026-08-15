@@ -1,46 +1,106 @@
+import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
-
-const products = [
-  {
-    id: 1,
-    image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600",
-    name: "Gaming Laptop",
-    price: "R15 999",
-  },
-  {
-    id: 2,
-    image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600",
-    name: "iPhone",
-    price: "R18 999",
-  },
-  {
-    id: 3,
-    image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
-    name: "Sony Headphones",
-    price: "R2 499",
-  },
-];
+import { getProducts } from "../services/productService";
 
 function Products() {
-  return (
-    <section className="products">
-      <h2>Featured Products</h2>
 
-      <div className="product-grid">
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            image={product.image}
-            name={product.name}
-            price={product.price}
-          />
-        ))}
-      </div>
-    </section>
-  );
+    const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState("");
+
+    useEffect(() => {
+
+        const loadProducts = async () => {
+
+            try {
+
+                const data = await getProducts();
+
+                setProducts(data);
+
+            } catch (error) {
+
+                console.error(error);
+
+                setError("Unable to load products.");
+
+            } finally {
+
+                setLoading(false);
+            }
+        };
+
+        loadProducts();
+
+    }, []);
+
+
+    if (loading) {
+        return (
+            <section className="products">
+                <h2>Featured Products</h2>
+                <p>Loading products...</p>
+            </section>
+        );
+    }
+
+
+    if (error) {
+        return (
+            <section className="products">
+                <h2>Featured Products</h2>
+                <p>{error}</p>
+            </section>
+        );
+    }
+
+
+    return (
+        <section className="products" id="products">
+
+            <div className="products-header">
+
+                <span className="section-label">
+                    OUR PRODUCTS
+                </span>
+
+                <h2>Featured Products</h2>
+
+                <p>
+                    Discover our latest products available
+                    in the TechStore collection.
+                </p>
+
+            </div>
+
+
+            {products.length === 0 ? (
+
+                <p className="products-message">
+                    No products available.
+                </p>
+
+            ) : (
+
+                <div className="product-grid">
+
+                    {products.map((product) => (
+
+                        <ProductCard
+                            key={product.rowKey}
+                            image={product.imageUrl}
+                            name={product.name}
+                            price={product.price}
+                        />
+
+                    ))}
+
+                </div>
+
+            )}
+
+        </section>
+    );
 }
 
 export default Products;

@@ -1,19 +1,31 @@
 function ProductCard({ image, name, price }) {
-  return (
-    <div className="product-card">
-      <img
-        src={image}
-        alt={name}
-        className="product-image"
-      />
+    return (
+        <div className="product-card">
 
-      <h3>{name}</h3>
+            <div className="product-image-container">
+                <img
+                    src={image}
+                    alt={name}
+                    className="product-image"
+                />
+            </div>
 
-      <p>{price}</p>
+            <div className="product-card-content">
 
-      <button>Buy Now</button>
-    </div>
-  );
+                <h3>{name}</h3>
+
+                <p className="product-price">
+                    R{Number(price).toLocaleString("en-ZA")}
+                </p>
+
+                <button className="product-button">
+                    View Product
+                </button>
+
+            </div>
+
+        </div>
+    );
 }
 
 export default ProductCard;
