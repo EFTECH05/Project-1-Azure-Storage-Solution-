@@ -1,72 +1,19 @@
-﻿import { Link } from "react-router-dom";
+function ProductCard({ image, name, price }) {
+  return (
+    <div className="product-card">
+      <img
+        src={image}
+        alt={name}
+        className="product-image"
+      />
 
-function ProductCard({ product }) {
+      <h3>{name}</h3>
 
-    return (
-        <div className="product-card">
+      <p>{price}</p>
 
-            <div className="product-image">
-
-                {product.imageUrl ? (
-
-                    <img
-                        src={product.imageUrl}
-                        alt={product.name}
-                    />
-
-                ) : (
-
-                    <div className="product-placeholder">
-                        🛍️
-                    </div>
-
-                )}
-
-                {product.stockQuantity <= 0 && (
-                    <span className="out-of-stock">
-                        OUT OF STOCK
-                    </span>
-                )}
-
-                <button className="heart">
-                    ♡
-                </button>
-
-            </div>
-
-            <div className="product-details">
-
-                <span className="product-category">
-                    {product.category}
-                </span>
-
-                <h3>
-                    {product.name}
-                </h3>
-
-                <p className="product-description">
-                    {product.description}
-                </p>
-
-                <div className="product-bottom">
-
-                    <strong>
-                        R{Number(product.price).toFixed(2)}
-                    </strong>
-
-                    <Link
-                        to={`/products/${product.rowKey}`}
-                        className="quick-add"
-                    >
-                        →
-                    </Link>
-
-                </div>
-
-            </div>
-
-        </div>
-    );
+      <button>Buy Now</button>
+    </div>
+  );
 }
 
 export default ProductCard;

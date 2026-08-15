@@ -1,222 +1,186 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\",
+  "WorkspaceRootPath": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\inventoryqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\inventoryqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\applicationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\applicationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\orderqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\orderqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\producttableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\producttableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\pages\\checkout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\pages\\checkout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\pages\\cart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\pages\\cart.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\pages\\productdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\pages\\productdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\pages\\products.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\pages\\products.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\newsletter.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\newsletter.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\productgrid.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\productgrid.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\categorycard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\categorycard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\trustbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\trustbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\src\\components\\hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\hero.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\frontend\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Retail_management_system.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Retail_management_system.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\applicationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\applicationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\inventoryqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\inventoryqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\orderqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\orderqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\producttableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\producttableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\source\\repos\\eftech05\\logistics-management-system-school-project-asp.net.core-part2\\glms\\retail_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -226,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 56,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -241,391 +205,152 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-08-13T19:03:29.781Z",
+              "Title": "ProductCard.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\ProductCard.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\ProductCard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-15T23:22:48.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\wwwroot\\favicon.ico",
-              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
-              "RelativeToolTip": "wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2026-08-13T19:03:23.729Z",
-              "EditorCaption": " -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "package-lock.json",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\package-lock.json",
-              "RelativeDocumentMoniker": "package-lock.json",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\package-lock.json",
-              "RelativeToolTip": "package-lock.json",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-13T19:02:54.173Z",
+              "Title": "Hero.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\Hero.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\Hero.jsx",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-15T23:09:21.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-13T19:02:50.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-13T19:02:48.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-13T19:02:46.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-13T19:02:43.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-13T19:02:41.061Z",
+              "DocumentIndex": 4,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "frontend\\src\\index.css",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\index.css",
+              "RelativeToolTip": "frontend\\src\\index.css",
+              "ViewState": "AgIAAKUDAAAAAAAAAAAcwK8DAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-15T23:01:26.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-13T19:02:17.112Z",
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Header.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\Header.jsx",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-15T23:00:34.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationLogService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\ApplicationLogService.cs",
-              "RelativeDocumentMoniker": "Services\\ApplicationLogService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\ApplicationLogService.cs",
-              "RelativeToolTip": "Services\\ApplicationLogService.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAowJoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T18:12:04.85Z",
+              "DocumentIndex": 5,
+              "Title": "About.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\About.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\About.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\About.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\About.jsx",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAswHYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-08-15T23:00:27.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InventoryQueueService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\InventoryQueueService.cs",
-              "RelativeDocumentMoniker": "Services\\InventoryQueueService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\InventoryQueueService.cs",
-              "RelativeToolTip": "Services\\InventoryQueueService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T17:59:26.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Navbar.css",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Navbar.css",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\Navbar.css",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Navbar.css",
-              "RelativeToolTip": "frontend\\src\\components\\Navbar.css",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAmwKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-13T14:02:38.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\index.css",
-              "RelativeDocumentMoniker": "frontend\\src\\index.css",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\index.css",
-              "RelativeToolTip": "frontend\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-13T12:54:24.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "productService.js",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\services\\productService.js",
-              "RelativeDocumentMoniker": "frontend\\src\\services\\productService.js",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\services\\productService.js",
-              "RelativeToolTip": "frontend\\src\\services\\productService.js",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-08-13T12:48:58.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Checkout.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Checkout.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\Checkout.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Checkout.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\Checkout.jsx",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:48:11.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Cart.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Cart.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\Cart.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Cart.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\Cart.jsx",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwCsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:47:48.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductDetails.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\ProductDetails.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\ProductDetails.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\ProductDetails.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\ProductDetails.jsx",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAgwHgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:47:25.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Products.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Products.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\Products.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Products.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\Products.jsx",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwE0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:47:02.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Home.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\Home.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\pages\\Home.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\Home.jsx",
-              "ViewState": "AgIAAOgCAAAAAAAAAAAYwKcDAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:46:35.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Newsletter.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Newsletter.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\Newsletter.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Newsletter.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\Newsletter.jsx",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:45:55.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ProductGrid.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\ProductGrid.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\ProductGrid.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\ProductGrid.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\ProductGrid.jsx",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:45:32.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductCard.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\ProductCard.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\ProductCard.jsx",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwEcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:45:07.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CategoryCard.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\CategoryCard.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\CategoryCard.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\CategoryCard.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\CategoryCard.jsx",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwCsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:44:39.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "TrustBar.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\TrustBar.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\TrustBar.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\TrustBar.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\TrustBar.jsx",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwD4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:44:15.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Hero.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\Hero.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\Hero.jsx",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAgwIAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:43:51.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
               "Title": "Footer.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Footer.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
               "RelativeToolTip": "frontend\\src\\components\\Footer.jsx",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAIwGwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:43:16.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Navbar.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\components\\Navbar.jsx",
-              "RelativeToolTip": "frontend\\src\\components\\Navbar.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:42:39.421Z",
+              "WhenOpened": "2026-08-15T23:00:25.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\main.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\main.jsx",
-              "RelativeToolTip": "frontend\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:35:08.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\App.css",
-              "RelativeDocumentMoniker": "frontend\\src\\App.css",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\App.css",
-              "RelativeToolTip": "frontend\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-13T12:34:31.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 7,
               "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\App.jsx",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\App.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\App.jsx",
               "RelativeToolTip": "frontend\\src\\App.jsx",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvzwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-08-13T12:31:38.889Z"
+              "WhenOpened": "2026-08-15T22:52:49.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 9,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\package-lock.json",
+              "RelativeDocumentMoniker": "frontend\\package-lock.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\package-lock.json",
+              "RelativeToolTip": "frontend\\package-lock.json",
+              "ViewState": "AgIAAM0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T22:43:53.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\index.html",
+              "RelativeDocumentMoniker": "frontend\\index.html",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\index.html",
+              "RelativeToolTip": "frontend\\index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-13T12:31:21.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\vite.config.js",
+              "RelativeDocumentMoniker": "frontend\\vite.config.js",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\vite.config.js",
+              "RelativeToolTip": "frontend\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-15T22:02:44.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-13T19:02:54.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "eslint.config.js",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\eslint.config.js",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\eslint.config.js",
               "RelativeDocumentMoniker": "frontend\\eslint.config.js",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\eslint.config.js",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\eslint.config.js",
               "RelativeToolTip": "frontend\\eslint.config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -633,23 +358,159 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\index.html",
-              "RelativeDocumentMoniker": "frontend\\index.html",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\frontend\\index.html",
-              "RelativeToolTip": "frontend\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-08-13T12:31:21.644Z"
+              "DocumentIndex": 12,
+              "Title": "Retail_management_system.csproj.user",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Retail_management_system.csproj.user",
+              "RelativeDocumentMoniker": "Retail_management_system.csproj.user",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Retail_management_system.csproj.user",
+              "RelativeToolTip": "Retail_management_system.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-08-15T02:43:53.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwv4QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:05:08.819Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-13T19:02:48.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-13T19:02:50.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-08-13T19:03:23.729Z",
+              "EditorCaption": " -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T19:02:46.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-08-13T19:03:29.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T19:02:43.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-13T19:02:41.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-13T19:02:17.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationLogService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ApplicationLogService.cs",
+              "RelativeDocumentMoniker": "Services\\ApplicationLogService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ApplicationLogService.cs",
+              "RelativeToolTip": "Services\\ApplicationLogService.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAowJoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T18:12:04.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InventoryQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\InventoryQueueService.cs",
+              "RelativeDocumentMoniker": "Services\\InventoryQueueService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\InventoryQueueService.cs",
+              "RelativeToolTip": "Services\\InventoryQueueService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T17:59:26.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Orders\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Create.cshtml",
               "RelativeToolTip": "Views\\Orders\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -657,37 +518,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Inventory\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Inventory\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Inventory\\Index.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Inventory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Inventory\\Index.cshtml",
               "RelativeToolTip": "Views\\Inventory\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-13T11:55:41.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T11:55:41.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "InventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\InventoryController.cs",
               "RelativeToolTip": "Controllers\\InventoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T11:55:12.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T11:55:12.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Orders\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "Views\\Orders\\Index.cshtml",
               "ViewState": "AgIAAIcAAAAAAAAAAAAswJAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -695,37 +554,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T11:53:22.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T11:53:22.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "OrderQueueService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\OrderQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\OrderQueueService.cs",
               "RelativeDocumentMoniker": "Services\\OrderQueueService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\OrderQueueService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\OrderQueueService.cs",
               "RelativeToolTip": "Services\\OrderQueueService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T11:49:06.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T11:49:06.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 30,
               "Title": "BlobStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\BlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\BlobStorageService.cs",
               "RelativeDocumentMoniker": "Services\\BlobStorageService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\BlobStorageService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\BlobStorageService.cs",
               "RelativeToolTip": "Services\\BlobStorageService.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -733,11 +590,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 31,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -745,11 +602,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Products\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "Views\\Products\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -757,24 +614,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "ProductTableService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\ProductTableService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ProductTableService.cs",
               "RelativeDocumentMoniker": "Services\\ProductTableService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\ProductTableService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\ProductTableService.cs",
               "RelativeToolTip": "Services\\ProductTableService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T22:11:38.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T22:11:38.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 34,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -782,11 +638,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Customers\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Customers\\Create.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Create.cshtml",
               "RelativeToolTip": "Views\\Customers\\Create.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAIwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -794,24 +650,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T22:05:08.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "CustomerTableService.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\CustomerTableService.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\CustomerTableService.cs",
               "RelativeDocumentMoniker": "Services\\CustomerTableService.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Services\\CustomerTableService.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Services\\CustomerTableService.cs",
               "RelativeToolTip": "Services\\CustomerTableService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -819,11 +662,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 37,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Models\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Models\\Customer.cs",
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -831,11 +674,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAADwv90AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -843,11 +686,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAMUAAAAAAAAAAAAUwNEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -855,11 +698,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\appsettings.json",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -867,11 +710,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Customers\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Customers\\Index.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Customers\\Index.cshtml",
               "RelativeToolTip": "Views\\Customers\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAJcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -879,24 +722,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 42,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T20:47:47.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T20:47:47.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 43,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAN8AAAAAAAAAAAAAAOsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -904,11 +746,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAOMAAAAAAAAAAAAYwO8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

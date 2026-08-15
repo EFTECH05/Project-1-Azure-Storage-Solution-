@@ -13,4 +13,8 @@
     <PackageReference Include="Azure.Storage.Queues" Version="12.27.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="frontend\src\" />
+  </ItemGroup>
+
 </Project>

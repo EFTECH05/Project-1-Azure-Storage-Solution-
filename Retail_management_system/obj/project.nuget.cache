@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IKtVKbYZdwo=",
+  "dgSpecHash": "XYx9mfBwQkw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\frank\\source\\repos\\EFTECH05\\Logistics-Management-System-School-Project-ASP.net.core-Part2\\GLMS\\Retail_management_system\\Retail_management_system.csproj",
+  "projectFilePath": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Retail_management_system.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frank\\.nuget\\packages\\azure.core\\1.55.0\\azure.core.1.55.0.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",
@@ -31,8 +31,8 @@
     "C:\\Users\\frank\\.nuget\\packages\\system.text.encodings.web\\10.0.3\\system.text.encodings.web.10.0.3.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\system.text.json\\10.0.3\\system.text.json.10.0.3.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\frank\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
     "C:\\Users\\frank\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
   ],

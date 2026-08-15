@@ -1,61 +1,23 @@
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
-
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Products from "./components/Products";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home";
-import Products from "./pages/Products";
-import ProductDetails from "./pages/ProductDetails";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-
-import "./App.css";
-
 function App() {
-    return (
-        <BrowserRouter>
+  return (
+    <>
+      <Header />
 
-            <Navbar />
+      <Hero />
 
-            <main>
-                <Routes>
+      <Products />
 
-                    <Route
-                        path="/"
-                        element={<Home />}
-                    />
+      <About />
 
-                    <Route
-                        path="/products"
-                        element={<Products />}
-                    />
-
-                    <Route
-                        path="/products/:id"
-                        element={<ProductDetails />}
-                    />
-
-                    <Route
-                        path="/cart"
-                        element={<Cart />}
-                    />
-
-                    <Route
-                        path="/checkout"
-                        element={<Checkout />}
-                    />
-
-                </Routes>
-            </main>
-
-            <Footer />
-
-        </BrowserRouter>
-    );
+      <Footer />
+    </>
+  );
 }
 
 export default App;

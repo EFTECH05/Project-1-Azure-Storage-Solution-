@@ -1,5 +1,3 @@
-﻿import { Link } from "react-router-dom";
-
 function Footer() {
     return (
         <footer className="footer">
@@ -8,95 +6,126 @@ function Footer() {
 
                 <div className="footer-grid">
 
-                    <div>
+                    {/* Brand */}
+                    <div className="footer-brand">
 
-                        <div className="brand">
-                            <div className="brand-mark">
-                                R
+                        <div className="footer-logo">
+
+                            <div className="footer-logo-icon">
+                                ABC
                             </div>
 
-                            RetailStore
+                            <div className="footer-logo-name">
+                                Retail<span>Store</span>
+                            </div>
+
                         </div>
 
                         <p className="footer-description">
-                            A simple and convenient online shopping
-                            experience. Discover quality products,
-                            great prices and reliable service.
+                            Your trusted destination for modern technology
+                            and quality electronics. Discover great products,
+                            competitive prices and reliable service.
                         </p>
 
                     </div>
 
 
+                    {/* Shop */}
                     <div className="footer-column">
 
-                        <h4>
-                            SHOP
-                        </h4>
+                        <h4>SHOP</h4>
 
-                        <Link to="/">
+                        <a href="#home">
                             Home
-                        </Link>
+                        </a>
 
-                        <Link to="/products">
+                        <a href="#products">
                             Products
-                        </Link>
+                        </a>
 
-                        <Link to="/cart">
-                            Cart
-                        </Link>
+                        <a href="#about">
+                            About Us
+                        </a>
+
+                        <a href="#contact">
+                            Contact
+                        </a>
 
                     </div>
 
 
+                    {/* Information */}
                     <div className="footer-column">
 
-                        <h4>
-                            INFORMATION
-                        </h4>
-
-                        <a href="#">
-                            About Us
-                        </a>
-
-                        <a href="#">
-                            Contact
-                        </a>
+                        <h4>INFORMATION</h4>
 
                         <a href="#">
                             Privacy Policy
                         </a>
 
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+
+                        <a href="#">
+                            Shipping Information
+                        </a>
+
+                        <a href="#">
+                            Returns & Refunds
+                        </a>
+
                     </div>
 
 
+                    {/* Contact */}
                     <div className="footer-column">
 
-                        <h4>
-                            CONTACT
-                        </h4>
+                        <h4>CONTACT</h4>
 
-                        <a href="mailto:support@retailstore.com">
-                            support@retailstore.com
-                        </a>
+                        <div className="footer-contact-item">
+                            <span className="footer-contact-icon">
+                                ✉
+                            </span>
 
-                        <a href="tel:+27000000000">
+                            support@techstore.com
+                        </div>
+
+                        <div className="footer-contact-item">
+                            <span className="footer-contact-icon">
+                                ☎
+                            </span>
+
                             +27 00 000 0000
-                        </a>
+                        </div>
+
+                        <div className="footer-contact-item">
+                            <span className="footer-contact-icon">
+                                📍
+                            </span>
+
+                            Cape Town, South Africa
+                        </div>
 
                     </div>
 
                 </div>
 
 
+                {/* Bottom */}
                 <div className="footer-bottom">
 
                     <span>
-                        © 2026 RetailStore. All rights reserved.
+                        © 2026 franklin ngangu . All rights reserved.
                     </span>
 
-                    <span>
+                    <div className="footer-bottom-right">
+
+                        <span className="footer-status"></span>
+
                         Secure online shopping
-                    </span>
+
+                    </div>
 
                 </div>
 
