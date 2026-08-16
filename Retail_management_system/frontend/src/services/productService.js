@@ -1,4 +1,8 @@
-﻿const API_URL = "https://localhost:7185/Products/api";
+﻿// =====================================================
+// PRODUCT API SERVICE
+// =====================================================
+
+const API_URL = "http://localhost:5277/Products/api";
 
 
 // =====================================================
@@ -6,22 +10,31 @@
 // =====================================================
 
 export async function getProducts() {
+
+    console.log("Calling API:", API_URL);
+
     try {
+
         const response = await fetch(API_URL);
+
+        console.log("Response status:", response.status);
+        console.log("Response OK:", response.ok);
 
         if (!response.ok) {
             throw new Error(
-                `Failed to fetch products. Status: ${response.status}`
+                `API returned status ${response.status}`
             );
         }
 
-        const products = await response.json();
+        const data = await response.json();
 
-        return products;
+        console.log("Products received:", data);
+
+        return data;
 
     } catch (error) {
 
-        console.error("Error fetching products:", error);
+        console.error("FETCH ERROR:", error);
 
         throw error;
     }
@@ -36,7 +49,9 @@ export async function getProduct(id) {
 
     try {
 
-        const response = await fetch(`${API_URL}/${id}`);
+        const response = await fetch(
+            `${API_URL}/${id}`
+        );
 
         if (!response.ok) {
 
@@ -45,15 +60,19 @@ export async function getProduct(id) {
             }
 
             throw new Error(
-                `Failed to fetch product. Status: ${response.status}`
+                `API returned status ${response.status}`
             );
         }
 
-        return await response.json();
+        const product = await response.json();
+
+        console.log("Product received:", product);
+
+        return product;
 
     } catch (error) {
 
-        console.error("Error fetching product:", error);
+        console.error("FETCH PRODUCT ERROR:", error);
 
         throw error;
     }

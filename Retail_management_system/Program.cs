@@ -2,52 +2,37 @@ using Retail_management_system.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 // =====================================================
 // SERVICES
 // =====================================================
 
-// MVC + API Controllers
 builder.Services.AddControllersWithViews();
 
-
 // =====================================================
-// AZURE TABLE STORAGE SERVICES
+// AZURE TABLE STORAGE
 // =====================================================
 
-// Customer data
 builder.Services.AddSingleton<CustomerTableService>();
-
-// Product data and inventory
 builder.Services.AddSingleton<ProductTableService>();
 
-
 // =====================================================
-// AZURE BLOB STORAGE SERVICE
+// AZURE BLOB STORAGE
 // =====================================================
 
-// Product images
 builder.Services.AddSingleton<BlobStorageService>();
 
-
 // =====================================================
-// AZURE QUEUE STORAGE SERVICES
+// AZURE QUEUE STORAGE
 // =====================================================
 
-// Order processing
 builder.Services.AddSingleton<OrderQueueService>();
-
-// Inventory processing
 builder.Services.AddSingleton<InventoryQueueService>();
 
-
 // =====================================================
-// AZURE FILE STORAGE SERVICE
+// AZURE FILE STORAGE
 // =====================================================
 
-// Application log files
 builder.Services.AddSingleton<ApplicationLogService>();
-
 
 // =====================================================
 // CORS
@@ -58,27 +43,20 @@ builder.Services.AddCors(options =>
     options.AddPolicy("ReactPolicy", policy =>
     {
         policy
-            .WithOrigins(
-                "http://localhost:5173",
-                "https://localhost:5173",
-                "http://localhost:5174",
-                "https://localhost:5174"
-            )
+            .WithOrigins("http://localhost:5174")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
 });
 
-
 // =====================================================
-// BUILD APPLICATION
+// BUILD
 // =====================================================
 
 var app = builder.Build();
 
-
 // =====================================================
-// HTTP REQUEST PIPELINE
+// HTTP PIPELINE
 // =====================================================
 
 if (!app.Environment.IsDevelopment())
@@ -87,13 +65,14 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
 // =====================================================
-// HTTPS
+// HTTPS REDIRECTION
 // =====================================================
 
-app.UseHttpsRedirection();
-
+// Temporarily disabled because React is calling
+// http://localhost:5277
+//
+// app.UseHttpsRedirection();
 
 // =====================================================
 // STATIC FILES
@@ -101,13 +80,11 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
-
 // =====================================================
 // ROUTING
 // =====================================================
 
 app.UseRouting();
-
 
 // =====================================================
 // CORS
@@ -115,20 +92,17 @@ app.UseRouting();
 
 app.UseCors("ReactPolicy");
 
-
 // =====================================================
 // AUTHORIZATION
 // =====================================================
 
 app.UseAuthorization();
 
-
 // =====================================================
-// API + ATTRIBUTE ROUTED CONTROLLERS
+// CONTROLLERS
 // =====================================================
 
 app.MapControllers();
-
 
 // =====================================================
 // MVC ROUTING
@@ -139,9 +113,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}"
 );
 
-
 // =====================================================
-// RUN APPLICATION
+// RUN
 // =====================================================
 
 app.Run();

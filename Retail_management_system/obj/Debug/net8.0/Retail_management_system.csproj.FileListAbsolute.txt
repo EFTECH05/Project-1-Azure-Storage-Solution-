@@ -135,4 +135,3 @@ C:\Users\frank\OneDrive\Documents\GitHub\Project-1-Azure-Storage-Solution-\Retai
 C:\Users\frank\OneDrive\Documents\GitHub\Project-1-Azure-Storage-Solution-\Retail_management_system\obj\Debug\net8.0\Retail_management_system.pdb
 C:\Users\frank\OneDrive\Documents\GitHub\Project-1-Azure-Storage-Solution-\Retail_management_system\obj\Debug\net8.0\Retail_management_system.genruntimeconfig.cache
 C:\Users\frank\OneDrive\Documents\GitHub\Project-1-Azure-Storage-Solution-\Retail_management_system\obj\Debug\net8.0\ref\Retail_management_system.dll
-C:\Users\frank\OneDrive\Documents\GitHub\Project-1-Azure-Storage-Solution-\Retail_management_system\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

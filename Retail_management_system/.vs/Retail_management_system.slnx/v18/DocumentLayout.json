@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\products.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\services\\productservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\productcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|solutionrelative:frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE9A9A8-54AE-5BD8-A1E0-48C5EA649308}|Retail_management_system.csproj|c:\\users\\frank\\onedrive\\documents\\github\\project-1-azure-storage-solution-\\retail_management_system\\frontend\\src\\components\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -202,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -217,14 +217,18 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "productService.js",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\services\\productService.js",
               "RelativeDocumentMoniker": "frontend\\src\\services\\productService.js",
               "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\services\\productService.js",
               "RelativeToolTip": "frontend\\src\\services\\productService.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-08-15T23:53:39.391Z",
               "EditorCaption": ""
@@ -237,14 +241,14 @@
               "RelativeDocumentMoniker": "frontend\\src\\components\\Products.jsx",
               "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Products.jsx",
               "RelativeToolTip": "frontend\\src\\components\\Products.jsx",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAswGkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswJgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-08-15T23:44:47.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -257,20 +261,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductCard.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\ProductCard.jsx",
               "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\ProductCard.jsx",
               "RelativeToolTip": "frontend\\src\\components\\ProductCard.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-08-15T23:22:48.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Hero.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Hero.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Hero.jsx",
@@ -283,20 +287,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\index.css",
               "RelativeDocumentMoniker": "frontend\\src\\index.css",
               "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\index.css",
               "RelativeToolTip": "frontend\\src\\index.css",
-              "ViewState": "AgIAAKUDAAAAAAAAAAAcwK8DAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-08-15T23:01:26.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Header.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Header.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Header.jsx",
@@ -322,7 +326,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswHcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:05:08.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Footer.jsx",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\frontend\\src\\components\\Footer.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\Footer.jsx",
@@ -335,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
@@ -344,19 +365,6 @@
               "ViewState": "AgIAAM8AAAAAAAAAAAAAAN0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T20:48:19.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\frank\\OneDrive\\Documents\\GitHub\\Project-1-Azure-Storage-Solution-\\Retail_management_system\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T22:05:08.819Z",
               "EditorCaption": ""
             },
             {
@@ -444,10 +452,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
               "WhenOpened": "2026-08-15T02:43:53.618Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
