@@ -8,42 +8,62 @@ namespace Retail_management_system.Controllers
     {
         private readonly CustomerTableService _customerTableService;
 
-        public CustomersController(CustomerTableService customerTableService)
+        public CustomersController(
+            CustomerTableService customerTableService)
         {
             _customerTableService = customerTableService;
         }
 
-        // Display all customers
+        // =====================================================
+        // DISPLAY ALL CUSTOMERS
+        // =====================================================
+
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var customers = await _customerTableService.GetCustomersAsync();
+            var customers =
+                await _customerTableService.GetCustomersAsync();
 
             return View(customers);
         }
 
-        // Display Add Customer form
+        // =====================================================
+        // DISPLAY CREATE CUSTOMER FORM
+        // =====================================================
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        // Save customer to Azure
+        // =====================================================
+        // CREATE CUSTOMER
+        // =====================================================
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Customer customer)
+        public async Task<IActionResult> Create(
+            Customer customer)
         {
             if (!ModelState.IsValid)
             {
                 return View(customer);
             }
 
-            await _customerTableService.AddCustomerAsync(customer);
+            await _customerTableService.AddCustomerAsync(
+                customer
+            );
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(
+                nameof(Index)
+            );
         }
 
-        // Delete customer
+        // =====================================================
+        // DELETE CUSTOMER
+        // =====================================================
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(
@@ -52,9 +72,12 @@ namespace Retail_management_system.Controllers
         {
             await _customerTableService.DeleteCustomerAsync(
                 partitionKey,
-                rowKey);
+                rowKey
+            );
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(
+                nameof(Index)
+            );
         }
     }
 }

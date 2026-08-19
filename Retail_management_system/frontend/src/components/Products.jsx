@@ -8,6 +8,11 @@ function Products() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
 
+
+    // =====================================================
+    // LOAD PRODUCTS
+    // =====================================================
+
     const loadProducts = async () => {
 
         try {
@@ -15,17 +20,26 @@ function Products() {
             setLoading(true);
             setError("");
 
-            console.log("Starting product request...");
+            console.log(
+                "Starting Azure product request..."
+            );
 
-            const data = await getProducts();
+            const data =
+                await getProducts();
 
-            console.log("Products component received:", data);
+            console.log(
+                "Products component received:",
+                data
+            );
 
             setProducts(data);
 
         } catch (err) {
 
-            console.error("PRODUCT COMPONENT ERROR:", err);
+            console.error(
+                "PRODUCT COMPONENT ERROR:",
+                err
+            );
 
             setError(
                 err?.message ||
@@ -35,20 +49,61 @@ function Products() {
         } finally {
 
             setLoading(false);
-
         }
     };
 
 
+    // =====================================================
+    // LOAD PRODUCTS WHEN COMPONENT OPENS
+    // =====================================================
+
     useEffect(() => {
 
-        loadProducts();
+        const fetchProducts = async () => {
+
+            try {
+
+                setLoading(true);
+                setError("");
+
+                const data =
+                    await getProducts();
+
+                setProducts(data);
+
+            } catch (err) {
+
+                console.error(
+                    "PRODUCT LOAD ERROR:",
+                    err
+                );
+
+                setError(
+                    err?.message ||
+                    "Unable to load products."
+                );
+
+            } finally {
+
+                setLoading(false);
+            }
+        };
+
+        fetchProducts();
 
     }, []);
 
 
     return (
-        <section className="products" id="products">
+
+        <section
+            className="products"
+            id="products"
+        >
+
+            {/* =================================================
+                HEADER
+            ================================================= */}
 
             <div className="products-header">
 
@@ -68,9 +123,12 @@ function Products() {
             </div>
 
 
-            {/* LOADING */}
+            {/* =================================================
+                LOADING
+            ================================================= */}
 
             {loading && (
+
                 <div className="products-message">
 
                     <p>
@@ -78,13 +136,19 @@ function Products() {
                     </p>
 
                 </div>
+
             )}
 
 
-            {/* ERROR */}
+            {/* =================================================
+                ERROR
+            ================================================= */}
 
             {!loading && error && (
-                <div className="products-message error-message">
+
+                <div
+                    className="products-message error-message"
+                >
 
                     <span className="error-icon">
                         !
@@ -98,15 +162,20 @@ function Products() {
                         {error}
                     </p>
 
-                    <button onClick={loadProducts}>
+                    <button
+                        onClick={loadProducts}
+                    >
                         Try Again
                     </button>
 
                 </div>
+
             )}
 
 
-            {/* NO PRODUCTS */}
+            {/* =================================================
+                NO PRODUCTS
+            ================================================= */}
 
             {!loading &&
                 !error &&
@@ -119,11 +188,14 @@ function Products() {
                         </p>
 
                     </div>
+
                 )
             }
 
 
-            {/* PRODUCTS */}
+            {/* =================================================
+                PRODUCTS
+            ================================================= */}
 
             {!loading &&
                 !error &&
@@ -137,12 +209,18 @@ function Products() {
                                 key={product.rowKey}
                                 image={product.imageUrl}
                                 name={product.name}
+                                description={product.description}
                                 price={product.price}
+                                category={product.category}
+                                stockQuantity={
+                                    product.stockQuantity
+                                }
                             />
 
                         ))}
 
                     </div>
+
                 )
             }
 

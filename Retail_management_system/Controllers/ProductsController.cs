@@ -19,9 +19,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
+        // =====================================================
         // API - GET ALL PRODUCTS
-        // ==========================================
+        // =====================================================
 
         [HttpGet("api")]
         public async Task<IActionResult> GetProducts()
@@ -33,9 +33,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
+        // =====================================================
         // API - GET SINGLE PRODUCT
-        // ==========================================
+        // =====================================================
 
         [HttpGet("api/{id}")]
         public async Task<IActionResult> GetProduct(string id)
@@ -59,9 +59,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
+        // =====================================================
         // MVC - DISPLAY PRODUCTS
-        // ==========================================
+        // =====================================================
 
         [HttpGet("")]
         public async Task<IActionResult> Index()
@@ -73,9 +73,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
+        // =====================================================
         // CREATE - DISPLAY FORM
-        // ==========================================
+        // =====================================================
 
         [HttpGet("Create")]
         public IActionResult Create()
@@ -84,9 +84,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
+        // =====================================================
         // CREATE - SAVE PRODUCT
-        // ==========================================
+        // =====================================================
 
         [HttpPost("Create")]
         [ValidateAntiForgeryToken]
@@ -94,15 +94,19 @@ namespace Retail_management_system.Controllers
             Product product,
             IFormFile? imageFile)
         {
+            // =================================================
+            // VALIDATE PRODUCT
+            // =================================================
+
             if (!ModelState.IsValid)
             {
                 return View(product);
             }
 
 
-            // ==========================================
+            // =================================================
             // UPLOAD IMAGE
-            // ==========================================
+            // =================================================
 
             if (imageFile != null && imageFile.Length > 0)
             {
@@ -121,7 +125,10 @@ namespace Retail_management_system.Controllers
                         .ToLowerInvariant();
 
 
-                // Check extension
+                // ---------------------------------------------
+                // CHECK FILE EXTENSION
+                // ---------------------------------------------
+
                 if (!allowedExtensions.Contains(extension))
                 {
                     ModelState.AddModelError(
@@ -133,7 +140,11 @@ namespace Retail_management_system.Controllers
                 }
 
 
+                // ---------------------------------------------
+                // CHECK FILE SIZE
                 // Maximum 5 MB
+                // ---------------------------------------------
+
                 if (imageFile.Length > 5 * 1024 * 1024)
                 {
                     ModelState.AddModelError(
@@ -145,7 +156,10 @@ namespace Retail_management_system.Controllers
                 }
 
 
-                // Upload to Azure Blob Storage
+                // ---------------------------------------------
+                // UPLOAD TO AZURE BLOB STORAGE
+                // ---------------------------------------------
+
                 using var stream =
                     imageFile.OpenReadStream();
 
@@ -158,40 +172,77 @@ namespace Retail_management_system.Controllers
                     );
 
 
+                // ---------------------------------------------
+                // SAVE IMAGE URL
+                // ---------------------------------------------
+
                 product.ImageUrl = imageUrl;
             }
 
 
-            // Save product to Azure Table Storage
+            // =================================================
+            // SAVE PRODUCT TO AZURE TABLE STORAGE
+            // =================================================
+
             await _productTableService.AddProductAsync(product);
 
+
+            // =================================================
+            // REDIRECT TO PRODUCT LIST
+            // =================================================
 
             return RedirectToAction(nameof(Index));
         }
 
 
-        // ==========================================
-        // IMAGE
-        // ==========================================
+        // =====================================================
+        // IMAGE - GET IMAGE FROM AZURE BLOB STORAGE
+        // =====================================================
 
         [HttpGet("Image")]
         public async Task<IActionResult> Image(string blobName)
         {
+            // ---------------------------------------------
+            // Validate blob name
+            // ---------------------------------------------
+
             if (string.IsNullOrWhiteSpace(blobName))
             {
                 return NotFound();
             }
 
 
-            var result =
-                await _blobStorageService.GetImageAsync(blobName);
+            // ---------------------------------------------
+            // Decode URL-encoded blob name
+            // ---------------------------------------------
 
+            blobName =
+                Uri.UnescapeDataString(blobName);
+
+
+            // ---------------------------------------------
+            // Get image from Azure Blob Storage
+            // ---------------------------------------------
+
+            var result =
+                await _blobStorageService.GetImageAsync(
+                    blobName
+                );
+
+
+            // ---------------------------------------------
+            // Blob doesn't exist
+            // ---------------------------------------------
 
             if (result == null)
             {
                 return NotFound();
             }
 
+
+            // ---------------------------------------------
+            // Return image to browser
+            // ---------------------------------------------
 
             return File(
                 result.Value.Stream,
@@ -200,9 +251,9 @@ namespace Retail_management_system.Controllers
         }
 
 
-        // ==========================================
-        // DELETE
-        // ==========================================
+        // =====================================================
+        // DELETE PRODUCT
+        // =====================================================
 
         [HttpPost("Delete")]
         [ValidateAntiForgeryToken]
@@ -216,7 +267,9 @@ namespace Retail_management_system.Controllers
             );
 
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(
+                nameof(Index)
+            );
         }
     }
 }
