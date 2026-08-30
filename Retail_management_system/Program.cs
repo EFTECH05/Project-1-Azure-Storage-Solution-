@@ -1,11 +1,14 @@
+
 using Retail_management_system.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // =====================================================
 // SERVICES
 // =====================================================
 
+// MVC + API Controllers
 builder.Services.AddControllersWithViews();
 
 
@@ -14,6 +17,9 @@ builder.Services.AddControllersWithViews();
 // =====================================================
 
 builder.Services.AddSingleton<CustomerTableService>();
+
+builder.Services.AddSingleton<CustomerAccountTableService>();
+
 builder.Services.AddSingleton<ProductTableService>();
 
 
@@ -29,6 +35,7 @@ builder.Services.AddSingleton<BlobStorageService>();
 // =====================================================
 
 builder.Services.AddSingleton<OrderQueueService>();
+
 builder.Services.AddSingleton<InventoryQueueService>();
 
 
@@ -49,14 +56,22 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins(
-                "http://localhost:5173",
-                "https://localhost:5173"
+                // =============================================
+                // React / Vite development servers
+                // =============================================
 
-            // Add your Azure React URL here
-            // after you publish the frontend.
+                "http://localhost:5173",
+                "https://localhost:5173",
+
+                "http://localhost:5174",
+                "https://localhost:5174"
+
+            // =============================================
+            // Production React frontend
+            // Add your Azure frontend URL here later.
+            // =============================================
             //
-            // Example:
-            // "https://yourfrontend.azurewebsites.net"
+            // "https://your-frontend.azurestaticapps.net"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
@@ -65,35 +80,38 @@ builder.Services.AddCors(options =>
 
 
 // =====================================================
-// BUILD
+// BUILD APPLICATION
 // =====================================================
 
 var app = builder.Build();
 
 
 // =====================================================
-// HTTP PIPELINE
+// ERROR HANDLING
 // =====================================================
 
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+
     app.UseHsts();
 }
-
-
-// =====================================================
-// STATIC FILES
-// =====================================================
-
-app.UseStaticFiles();
 
 
 // =====================================================
 // HTTPS
 // =====================================================
 
+// Redirect HTTP requests to HTTPS.
 app.UseHttpsRedirection();
+
+
+// =====================================================
+// STATIC FILES
+// =====================================================
+
+// Allows ASP.NET Core to serve files from wwwroot.
+app.UseStaticFiles();
 
 
 // =====================================================
@@ -107,6 +125,8 @@ app.UseRouting();
 // CORS
 // =====================================================
 
+// Must be placed after UseRouting()
+// and before the endpoints are mapped.
 app.UseCors("ReactPolicy");
 
 
@@ -118,8 +138,19 @@ app.UseAuthorization();
 
 
 // =====================================================
-// CONTROLLERS
+// API CONTROLLERS
 // =====================================================
+
+// Examples:
+//
+// GET /Products/api
+// GET /Products/api/{id}
+//
+// POST /Products/Create
+// POST /Products/Delete
+//
+// GET /api/auth/register
+// GET /api/auth/login
 
 app.MapControllers();
 
@@ -128,6 +159,13 @@ app.MapControllers();
 // MVC ROUTING
 // =====================================================
 
+// Default MVC route:
+//
+// /
+// /Home
+// /Home/Index
+// /Home/Index/{id}
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
@@ -135,7 +173,8 @@ app.MapControllerRoute(
 
 
 // =====================================================
-// RUN
+// APPLICATION START
 // =====================================================
 
 app.Run();
+

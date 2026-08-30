@@ -1,3 +1,4 @@
+
 function ProductCard({
     image,
     name,
@@ -7,12 +8,18 @@ function ProductCard({
     stockQuantity
 }) {
 
+    console.log(
+        "ProductCard rendering:",
+        name
+    );
+
+
     return (
 
         <div className="product-card">
 
             {/* =================================================
-                PRODUCT IMAGE
+                IMAGE
             ================================================= */}
 
             <div className="product-image-container">
@@ -21,13 +28,13 @@ function ProductCard({
 
                     <img
                         src={image}
-                        alt={name}
+                        alt={name || "Product"}
                         className="product-image"
 
                         onLoad={() => {
 
                             console.log(
-                                "Image loaded:",
+                                "IMAGE LOADED:",
                                 name
                             );
 
@@ -36,7 +43,7 @@ function ProductCard({
                         onError={(event) => {
 
                             console.error(
-                                "Image failed to load:",
+                                "IMAGE FAILED:",
                                 image
                             );
 
@@ -49,9 +56,7 @@ function ProductCard({
                 ) : (
 
                     <div className="no-product-image">
-
                         No Image
-
                     </div>
 
                 )}
@@ -65,39 +70,25 @@ function ProductCard({
 
             <div className="product-card-content">
 
-                {/* CATEGORY */}
-
                 <span className="product-category">
-
                     {category}
-
                 </span>
 
 
-                {/* NAME */}
-
                 <h3>
-
                     {name}
-
                 </h3>
 
 
-                {/* DESCRIPTION */}
-
                 <p className="product-description">
-
                     {description}
-
                 </p>
 
-
-                {/* PRICE */}
 
                 <p className="product-price">
 
                     R
-                    {Number(price).toLocaleString(
+                    {Number(price || 0).toLocaleString(
                         "en-ZA",
                         {
                             minimumFractionDigits: 2,
@@ -108,25 +99,21 @@ function ProductCard({
                 </p>
 
 
-                {/* STOCK */}
-
                 <p className="product-stock">
 
-                    {stockQuantity > 0
-                        ? `${stockQuantity} available`
+                    {Number(stockQuantity) > 0
+                        ? `${ stockQuantity } available`
                         : "Out of stock"}
 
                 </p>
 
 
-                {/* BUTTON */}
-
                 <button
                     className="product-button"
-                    disabled={stockQuantity <= 0}
+                    disabled={Number(stockQuantity) <= 0}
                 >
 
-                    {stockQuantity > 0
+                    {Number(stockQuantity) > 0
                         ? "View Product"
                         : "Out of Stock"}
 
@@ -135,7 +122,11 @@ function ProductCard({
             </div>
 
         </div>
+
     );
+
 }
 
+
 export default ProductCard;
+

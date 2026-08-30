@@ -1,5 +1,5 @@
 /* =====================================================
-   GLOBAL
+GLOBAL
 ===================================================== */
 
 * {
@@ -24,14 +24,76 @@ a {
     color: inherit;
 }
 
-button {
+button,
+input,
+textarea {
     font-family: inherit;
+}
+
+button {
     cursor: pointer;
 }
 
+/* =====================================================
+ANIMATIONS
+===================================================== */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+     to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+     50% {
+        transform: translateY(-10px);
+    }
+
+    
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.25);
+    }
+
+     70% {
+        box-shadow: 0 0 0 14px rgba(37, 99, 235, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+    }
+
+    
+}
 
 /* =====================================================
-   HEADER
+HEADER
 ===================================================== */
 
 .header {
@@ -55,9 +117,8 @@ button {
     gap: 40px;
 }
 
-
 /* =====================================================
-   LOGO
+LOGO
 ===================================================== */
 
 .logo {
@@ -74,7 +135,7 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    background: linear-gradient( 135deg, #2563eb, #4f46e5 );
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
     color: white;
     font-size: 21px;
     font-weight: 800;
@@ -92,9 +153,8 @@ button {
         color: #2563eb;
     }
 
-
 /* =====================================================
-   NAVIGATION
+NAVIGATION
 ===================================================== */
 
 .navigation {
@@ -140,9 +200,8 @@ button {
             color: #2563eb;
         }
 
-
 /* =====================================================
-   HEADER ACTIONS
+HEADER ACTIONS
 ===================================================== */
 
 .header-actions {
@@ -152,9 +211,8 @@ button {
     flex-shrink: 0;
 }
 
-
 /* =====================================================
-   LOGIN
+LOGIN
 ===================================================== */
 
 .login-button {
@@ -174,16 +232,15 @@ button {
         background: #f8faff;
     }
 
-
 /* =====================================================
-   REGISTER
+REGISTER
 ===================================================== */
 
 .register-button {
     padding: 10px 17px;
     border: none;
     border-radius: 9px;
-    background: linear-gradient( 135deg, #2563eb, #4f46e5 );
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
     color: white;
     font-size: 13px;
     font-weight: 700;
@@ -196,9 +253,8 @@ button {
         box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
     }
 
-
 /* =====================================================
-   CART
+CART
 ===================================================== */
 
 .cart-button {
@@ -225,9 +281,8 @@ button {
     color: #2563eb;
 }
 
-
 /* =====================================================
-   HERO
+HERO
 ===================================================== */
 
 .hero {
@@ -239,8 +294,9 @@ button {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: radial-gradient( circle at 20% 20%, rgba(96, 165, 250, 0.35), transparent 30% ), radial-gradient( circle at 80% 80%, rgba(129, 140, 248, 0.3), transparent 30% ), linear-gradient( 135deg, #172554, #1d4ed8, #2563eb );
+     background: radial-gradient( circle at 20% 20%, rgba(96, 165, 250, 0.35), transparent 30% ), radial-gradient( circle at 80% 80%, rgba(129, 140, 248, 0.3), transparent 30% ), linear-gradient( 135deg, #172554, #1d4ed8, #2563eb );
     color: white;
+    
 }
 
     .hero::before {
@@ -252,6 +308,7 @@ button {
         border: 1px solid rgba(255, 255, 255, 0.12);
         top: -120px;
         right: 10%;
+        animation: float 6s ease-in-out infinite;
     }
 
     .hero::after {
@@ -263,12 +320,14 @@ button {
         border: 1px solid rgba(255, 255, 255, 0.1);
         bottom: -100px;
         left: 10%;
+        animation: float 7s ease-in-out infinite reverse;
     }
 
 .hero-content {
     position: relative;
     z-index: 2;
     max-width: 750px;
+    animation: fadeUp 0.8s ease forwards;
 }
 
 .hero h2 {
@@ -303,9 +362,8 @@ button {
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
 
-
 /* =====================================================
-   PRODUCTS SECTION
+PRODUCTS SECTION
 ===================================================== */
 
 .products {
@@ -314,15 +372,11 @@ button {
     padding: 90px 32px;
 }
 
-
-/* =====================================================
-   PRODUCTS HEADER
-===================================================== */
-
 .products-header {
     max-width: 750px;
     margin: 0 auto 50px;
     text-align: center;
+    animation: fadeUp 0.7s ease forwards;
 }
 
 .section-label {
@@ -353,9 +407,8 @@ button {
     line-height: 1.8;
 }
 
-
 /* =====================================================
-   PRODUCT GRID
+PRODUCT GRID
 ===================================================== */
 
 .product-grid {
@@ -364,9 +417,8 @@ button {
     gap: 25px;
 }
 
-
 /* =====================================================
-   PRODUCT CARD
+PRODUCT CARD
 ===================================================== */
 
 .product-card {
@@ -377,19 +429,21 @@ button {
     border: 1px solid #e2e8f0;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.05);
+     box-shadow: 0 5px 18px rgba(15, 23, 42, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    animation: fadeUp 0.6s ease forwards;
+    
 }
 
     .product-card:hover {
         transform: translateY(-8px);
         border-color: #bfdbfe;
-        box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+         box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+        
     }
 
-
 /* =====================================================
-   PRODUCT IMAGE CONTAINER
+PRODUCT IMAGE
 ===================================================== */
 
 .product-image-container {
@@ -412,9 +466,8 @@ button {
     transform: scale(1.06);
 }
 
-
 /* =====================================================
-   PRODUCT CARD CONTENT
+PRODUCT CARD CONTENT
 ===================================================== */
 
 .product-card-content {
@@ -432,20 +485,21 @@ button {
     line-height: 1.3;
 }
 
-.product-card-description {
+.product-card-description,
+.product-description {
     margin-bottom: 15px;
     color: #64748b;
     font-size: 13px;
     line-height: 1.6;
-    display: -webkit-box;
+     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    
 }
 
-
 /* =====================================================
-   PRODUCT CATEGORY
+CATEGORY
 ===================================================== */
 
 .product-category {
@@ -462,9 +516,8 @@ button {
     letter-spacing: 0.5px;
 }
 
-
 /* =====================================================
-   PRODUCT PRICE
+PRICE
 ===================================================== */
 
 .product-price {
@@ -475,9 +528,8 @@ button {
     font-weight: 800;
 }
 
-
 /* =====================================================
-   STOCK
+STOCK
 ===================================================== */
 
 .product-stock {
@@ -498,9 +550,8 @@ button {
         color: #dc2626;
     }
 
-
 /* =====================================================
-   PRODUCT BUTTON
+PRODUCT BUTTON
 ===================================================== */
 
 .product-button {
@@ -512,7 +563,8 @@ button {
     color: white;
     font-size: 13px;
     font-weight: 700;
-    transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+     transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    
 }
 
     .product-button:hover {
@@ -521,9 +573,8 @@ button {
         box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
     }
 
-
 /* =====================================================
-   PRODUCT MESSAGES
+PRODUCT MESSAGES
 ===================================================== */
 
 .products-message {
@@ -551,9 +602,8 @@ button {
     font-size: 14px;
 }
 
-
 /* =====================================================
-   ABOUT SECTION
+ABOUT SECTION
 ===================================================== */
 
 .about {
@@ -566,11 +616,6 @@ button {
     max-width: 1100px;
     margin: 0 auto;
 }
-
-
-/* =====================================================
-   ABOUT HEADER
-===================================================== */
 
 .about-header {
     max-width: 720px;
@@ -609,9 +654,8 @@ button {
     line-height: 1.8;
 }
 
-
 /* =====================================================
-   ABOUT FEATURES
+ABOUT FEATURES
 ===================================================== */
 
 .about-features {
@@ -627,20 +671,17 @@ button {
     border: 1px solid #e2e8f0;
     border-radius: 16px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
+     box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+   
 }
 
     .about-card:hover {
         transform: translateY(-6px);
         border-color: #bfdbfe;
-        box-shadow: 0 15px 30px rgba(15, 23, 42, 0.08);
+         box-shadow: 0 15px 30px rgba(15, 23, 42, 0.08);
+        
     }
-
-
-/* =====================================================
-   ABOUT ICON
-===================================================== */
 
 .about-icon {
     width: 55px;
@@ -666,9 +707,8 @@ button {
     line-height: 1.7;
 }
 
-
 /* =====================================================
-   ABOUT CTA
+ABOUT CTA
 ===================================================== */
 
 .about-bottom {
@@ -678,7 +718,7 @@ button {
     gap: 30px;
     padding: 30px 35px;
     border-radius: 16px;
-    background: linear-gradient( 135deg, #172554, #2563eb );
+    background: linear-gradient(135deg, #172554, #2563eb);
     color: white;
     box-shadow: 0 15px 35px rgba(37, 99, 235, 0.15);
 }
@@ -709,9 +749,300 @@ button {
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
+/* =====================================================
+CONTACT SECTION
+===================================================== */
+
+.contact-section {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 30px;
+    background: radial-gradient( circle at 10% 20%, rgba(96, 165, 250, 0.16), transparent 30% ), radial-gradient( circle at 90% 80%, rgba(129, 140, 248, 0.14), transparent 30% ), #f8fafc;
+    
+}
+
+    .contact-section::before {
+        content: "";
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        border: 1px solid rgba(37, 99, 235, 0.08);
+        top: -180px;
+        left: -100px;
+    }
+
+    .contact-section::after {
+        content: "";
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        border: 1px solid rgba(79, 70, 229, 0.08);
+        bottom: -140px;
+        right: -80px;
+    }
+
+.contact-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1150px;
+    margin: 0 auto;
+}
 
 /* =====================================================
-   FOOTER
+CONTACT HEADER
+===================================================== */
+
+.contact-header {
+    max-width: 700px;
+    margin: 0 auto 55px;
+    text-align: center;
+    animation: fadeUp 0.7s ease forwards;
+}
+
+.contact-label {
+    display: inline-block;
+    margin-bottom: 13px;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+
+.contact-header h2 {
+    margin-bottom: 16px;
+    color: #0f172a;
+    font-size: 44px;
+    line-height: 1.15;
+    letter-spacing: -1.6px;
+}
+
+    .contact-header h2 span {
+        color: #2563eb;
+    }
+
+.contact-header p {
+    max-width: 620px;
+    margin: auto;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* =====================================================
+CONTACT GRID
+===================================================== */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 30px;
+    align-items: stretch;
+}
+
+/* =====================================================
+CONTACT INFORMATION
+===================================================== */
+
+.contact-info {
+    padding: 35px;
+    border-radius: 20px;
+    background: linear-gradient( 145deg, #172554, #1d4ed8, #2563eb );
+    color: white;
+    box-shadow: 0 20px 45px rgba(37, 99, 235, 0.18);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+    .contact-info h3 {
+        margin-bottom: 12px;
+        font-size: 25px;
+    }
+
+    .contact-info > p {
+        margin-bottom: 30px;
+        color: #dbeafe;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+/* =====================================================
+CONTACT ITEMS
+===================================================== */
+
+.contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 22px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+    .contact-info-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateX(5px);
+    }
+
+.contact-info-icon {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.13);
+    font-size: 18px;
+}
+
+.contact-info-item h4 {
+    margin-bottom: 3px;
+    color: white;
+    font-size: 14px;
+}
+
+.contact-info-item p {
+    color: #bfdbfe;
+    font-size: 13px;
+}
+
+/* =====================================================
+CONTACT FORM
+===================================================== */
+
+.contact-form {
+    padding: 35px;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.06);
+    animation: fadeUp 1s ease forwards;
+}
+
+    .contact-form h3 {
+        margin-bottom: 7px;
+        color: #0f172a;
+        font-size: 25px;
+    }
+
+.contact-form-description {
+    margin-bottom: 25px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* =====================================================
+FORM ROW
+===================================================== */
+
+.contact-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+}
+
+/* =====================================================
+FORM GROUP
+===================================================== */
+
+.contact-form-group {
+    margin-bottom: 18px;
+}
+
+    .contact-form-group label {
+        display: block;
+        margin-bottom: 7px;
+        color: #334155;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .contact-form-group input,
+    .contact-form-group textarea {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid #e2e8f0;
+        border-radius: 9px;
+        outline: none;
+        background: #f8fafc;
+        color: #0f172a;
+        font-size: 13px;
+        transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    }
+
+    .contact-form-group input {
+        height: 46px;
+    }
+
+    .contact-form-group textarea {
+        min-height: 125px;
+        resize: vertical;
+    }
+
+        .contact-form-group input::placeholder,
+        .contact-form-group textarea::placeholder {
+            color: #94a3b8;
+        }
+
+        .contact-form-group input:focus,
+        .contact-form-group textarea:focus {
+            border-color: #2563eb;
+            background: white;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+        }
+
+/* =====================================================
+CONTACT SUBMIT BUTTON
+===================================================== */
+
+.contact-submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+    .contact-submit:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 25px rgba(37, 99, 235, 0.3);
+    }
+
+    .contact-submit:active {
+        transform: translateY(0);
+    }
+
+/* =====================================================
+CONTACT STATUS
+===================================================== */
+
+.contact-status {
+    margin-top: 15px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: #f0fdf4;
+    color: #15803d;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* =====================================================
+FOOTER
 ===================================================== */
 
 .footer {
@@ -725,22 +1056,12 @@ button {
     margin: auto;
 }
 
-
-/* =====================================================
-   FOOTER GRID
-===================================================== */
-
 .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1.3fr;
     gap: 55px;
     padding-bottom: 50px;
 }
-
-
-/* =====================================================
-   FOOTER BRAND
-===================================================== */
 
 .footer-brand {
     max-width: 340px;
@@ -760,7 +1081,7 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background: linear-gradient( 135deg, #2563eb, #4f46e5 );
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
     color: white;
     font-size: 19px;
     font-weight: 800;
@@ -783,11 +1104,6 @@ button {
     max-width: 320px;
 }
 
-
-/* =====================================================
-   FOOTER COLUMNS
-===================================================== */
-
 .footer-column h4 {
     margin-bottom: 20px;
     color: white;
@@ -809,9 +1125,8 @@ button {
         transform: translateX(3px);
     }
 
-
 /* =====================================================
-   FOOTER CONTACT
+FOOTER CONTACT
 ===================================================== */
 
 .footer-contact-item {
@@ -827,9 +1142,8 @@ button {
     font-size: 15px;
 }
 
-
 /* =====================================================
-   FOOTER BOTTOM
+FOOTER BOTTOM
 ===================================================== */
 
 .footer-bottom {
@@ -855,15 +1169,16 @@ button {
     border-radius: 50%;
     background: #22c55e;
     box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+    animation: pulse 2s infinite;
 }
 
-
 /* =====================================================
-   RESPONSIVE - 1000PX
+RESPONSIVE - 1000PX
 ===================================================== */
 
 @media (max-width: 1000px) {
 
+    ```
     .header-container {
         gap: 20px;
     }
@@ -891,15 +1206,23 @@ button {
     .footer-brand {
         grid-column: 1 / -1;
     }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        max-width: 750px;
+        margin: auto;
+    }
+
+    
 }
 
-
 /* =====================================================
-   RESPONSIVE - 768PX
+RESPONSIVE - 768PX
 ===================================================== */
 
 @media (max-width: 768px) {
 
+    
     .header-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -990,6 +1313,27 @@ button {
     }
 
 
+    /* CONTACT */
+
+    .contact-section {
+        padding: 75px 20px;
+    }
+
+    .contact-header h2 {
+        font-size: 36px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 28px 22px;
+    }
+
+    .contact-form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+
     /* FOOTER */
 
     .footer {
@@ -1010,15 +1354,17 @@ button {
         justify-content: center;
         text-align: center;
     }
+
+    
 }
 
-
 /* =====================================================
-   RESPONSIVE - 500PX
+RESPONSIVE - 500PX
 ===================================================== */
 
 @media (max-width: 500px) {
 
+    
     .header-container {
         padding: 12px 15px;
     }
@@ -1034,32 +1380,6 @@ button {
     .header-actions {
         width: 100%;
         justify-content: center;
-    }
-
-    .product-image-container {
-        width: 100%;
-        height: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        background: #f5f5f5;
-    }
-
-    .product-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        display: block;
-    }
-
-    .no-product-image {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #777;
     }
 
     .login-button,
@@ -1107,6 +1427,10 @@ button {
         height: 220px;
     }
 
+    .product-image {
+        object-fit: contain;
+    }
+
 
     /* ABOUT */
 
@@ -1123,6 +1447,40 @@ button {
     }
 
 
+    /* CONTACT */
+
+    .contact-section {
+        padding: 65px 15px;
+    }
+
+    .contact-header {
+        margin-bottom: 35px;
+    }
+
+        .contact-header h2 {
+            font-size: 30px;
+        }
+
+        .contact-header p {
+            font-size: 14px;
+        }
+
+    .contact-info,
+    .contact-form {
+        padding: 24px 18px;
+        border-radius: 15px;
+    }
+
+        .contact-info h3,
+        .contact-form h3 {
+            font-size: 22px;
+        }
+
+    .contact-info-item {
+        padding: 12px 8px;
+    }
+
+
     /* FOOTER */
 
     .footer-grid {
@@ -1131,6 +1489,7 @@ button {
     }
 
     .footer-brand {
+        grid-column: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1151,4 +1510,6 @@ button {
     .footer-contact-item {
         justify-content: center;
     }
+
+    
 }

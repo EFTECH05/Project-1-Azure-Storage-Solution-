@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import { getProducts } from "../services/productService";
@@ -13,68 +14,41 @@ function Products() {
     // LOAD PRODUCTS
     // =====================================================
 
-    const loadProducts = async () => {
-
-        try {
-
-            setLoading(true);
-            setError("");
-
-            console.log(
-                "Starting Azure product request..."
-            );
-
-            const data =
-                await getProducts();
-
-            console.log(
-                "Products component received:",
-                data
-            );
-
-            setProducts(data);
-
-        } catch (err) {
-
-            console.error(
-                "PRODUCT COMPONENT ERROR:",
-                err
-            );
-
-            setError(
-                err?.message ||
-                "Something went wrong while retrieving the products."
-            );
-
-        } finally {
-
-            setLoading(false);
-        }
-    };
-
-
-    // =====================================================
-    // LOAD PRODUCTS WHEN COMPONENT OPENS
-    // =====================================================
-
     useEffect(() => {
 
-        const fetchProducts = async () => {
+        async function loadProducts() {
+
+            console.log("=================================");
+            console.log("LOADING PRODUCTS");
+            console.log("=================================");
 
             try {
 
                 setLoading(true);
                 setError("");
 
-                const data =
-                    await getProducts();
+                const data = await getProducts();
+
+                console.log("API DATA:", data);
+                console.log("IS ARRAY:", Array.isArray(data));
+                console.log("PRODUCT COUNT:", data?.length);
+
+
+                if (!Array.isArray(data)) {
+
+                    throw new Error(
+                        "API did not return a product array."
+                    );
+
+                }
+
 
                 setProducts(data);
 
             } catch (err) {
 
                 console.error(
-                    "PRODUCT LOAD ERROR:",
+                    "PRODUCT ERROR:",
                     err
                 );
 
@@ -86,48 +60,57 @@ function Products() {
             } finally {
 
                 setLoading(false);
-            }
-        };
 
-        fetchProducts();
+            }
+        }
+
+
+        loadProducts();
 
     }, []);
 
 
-    return (
+    // =====================================================
+    // RETRY
+    // =====================================================
 
-        <section
-            className="products"
-            id="products"
-        >
+    const handleRetry = () => {
 
-            {/* =================================================
-                HEADER
-            ================================================= */}
+        window.location.reload();
 
-            <div className="products-header">
-
-                <span className="section-label">
-                    OUR PRODUCTS
-                </span>
-
-                <h2>
-                    Featured Products
-                </h2>
-
-                <p>
-                    Discover our latest products available
-                    in the TechStore collection.
-                </p>
-
-            </div>
+    };
 
 
-            {/* =================================================
-                LOADING
-            ================================================= */}
+    // =====================================================
+    // LOADING
+    // =====================================================
 
-            {loading && (
+    if (loading) {
+
+        return (
+
+            <section
+                className="products"
+                id="products"
+            >
+
+                <div className="products-header">
+
+                    <span className="section-label">
+                        OUR PRODUCTS
+                    </span>
+
+                    <h2>
+                        Featured Products
+                    </h2>
+
+                    <p>
+                        Discover our latest products available
+                        in the TechStore collection.
+                    </p>
+
+                </div>
+
 
                 <div className="products-message">
 
@@ -137,95 +120,188 @@ function Products() {
 
                 </div>
 
-            )}
+            </section>
+
+        );
+
+    }
 
 
-            {/* =================================================
-                ERROR
-            ================================================= */}
+    // =====================================================
+    // ERROR
+    // =====================================================
 
-            {!loading && error && (
+    if (error) {
 
-                <div
-                    className="products-message error-message"
-                >
+        return (
+
+            <section
+                className="products"
+                id="products"
+            >
+
+                <div className="products-header">
+
+                    <span className="section-label">
+                        OUR PRODUCTS
+                    </span>
+
+                    <h2>
+                        Featured Products
+                    </h2>
+
+                </div>
+
+
+                <div className="products-message error-message">
 
                     <span className="error-icon">
                         !
                     </span>
 
+
                     <h3>
                         Unable to load products
                     </h3>
+
 
                     <p>
                         {error}
                     </p>
 
+
                     <button
-                        onClick={loadProducts}
+                        onClick={handleRetry}
                     >
                         Try Again
                     </button>
 
                 </div>
 
-            )}
+            </section>
+
+        );
+
+    }
 
 
-            {/* =================================================
-                NO PRODUCTS
-            ================================================= */}
+    // =====================================================
+    // NO PRODUCTS
+    // =====================================================
 
-            {!loading &&
-                !error &&
-                products.length === 0 && (
+    if (products.length === 0) {
 
-                    <div className="products-message">
+        return (
 
-                        <p>
-                            No products available.
-                        </p>
+            <section
+                className="products"
+                id="products"
+            >
 
-                    </div>
+                <div className="products-header">
 
-                )
-            }
+                    <span className="section-label">
+                        OUR PRODUCTS
+                    </span>
+
+                    <h2>
+                        Featured Products
+                    </h2>
+
+                    <p>
+                        Discover our latest products available
+                        in the TechStore collection.
+                    </p>
+
+                </div>
 
 
-            {/* =================================================
-                PRODUCTS
-            ================================================= */}
+                <div className="products-message">
 
-            {!loading &&
-                !error &&
-                products.length > 0 && (
+                    <p>
+                        No products available.
+                    </p>
 
-                    <div className="product-grid">
+                </div>
 
-                        {products.map((product) => (
+            </section>
 
-                            <ProductCard
-                                key={product.rowKey}
-                                image={product.imageUrl}
-                                name={product.name}
-                                description={product.description}
-                                price={product.price}
-                                category={product.category}
-                                stockQuantity={
-                                    product.stockQuantity
-                                }
-                            />
+        );
 
-                        ))}
+    }
 
-                    </div>
 
-                )
-            }
+    // =====================================================
+    // PRODUCTS
+    // =====================================================
+
+    return (
+
+        <section
+            className="products"
+            id="products"
+        >
+
+            <div className="products-header">
+
+                <span className="section-label">
+                    OUR PRODUCTS
+                </span>
+
+
+                <h2>
+                    Featured Products
+                </h2>
+
+
+                <p>
+                    Discover our latest products available
+                    in the TechStore collection.
+                </p>
+
+            </div>
+
+
+            <div className="product-grid">
+
+                {products.map((product) => {
+
+                    console.log(
+                        "RENDERING PRODUCT:",
+                        product
+                    );
+
+
+                    return (
+
+                        <ProductCard
+                            key={product.rowKey}
+
+                            image={product.imageUrl}
+
+                            name={product.name}
+
+                            description={product.description}
+
+                            price={product.price}
+
+                            category={product.category}
+
+                            stockQuantity={product.stockQuantity}
+                        />
+
+                    );
+
+                })}
+
+            </div>
 
         </section>
+
     );
+
 }
 
+
 export default Products;
+
