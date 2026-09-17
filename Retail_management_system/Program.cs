@@ -1,4 +1,3 @@
-
 using Retail_management_system.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +7,36 @@ var builder = WebApplication.CreateBuilder(args);
 // SERVICES
 // =====================================================
 
-// MVC + API Controllers
 builder.Services.AddControllersWithViews();
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // =====================================================
@@ -17,9 +44,7 @@ builder.Services.AddControllersWithViews();
 // =====================================================
 
 builder.Services.AddSingleton<CustomerTableService>();
-
 builder.Services.AddSingleton<CustomerAccountTableService>();
-
 builder.Services.AddSingleton<ProductTableService>();
 
 
@@ -35,7 +60,6 @@ builder.Services.AddSingleton<BlobStorageService>();
 // =====================================================
 
 builder.Services.AddSingleton<OrderQueueService>();
-
 builder.Services.AddSingleton<InventoryQueueService>();
 
 
@@ -56,22 +80,18 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins(
-                // =============================================
-                // React / Vite development servers
-                // =============================================
-
                 "http://localhost:5173",
                 "https://localhost:5173",
 
                 "http://localhost:5174",
-                "https://localhost:5174"
+                "https://localhost:5174",
 
-            // =============================================
-            // Production React frontend
-            // Add your Azure frontend URL here later.
-            // =============================================
-            //
-            // "https://your-frontend.azurestaticapps.net"
+                "http://localhost:5175",
+                "https://localhost:5175",
+
+                // YOUR FRONTEND
+                "http://localhost:5179",
+                "https://localhost:5179"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
@@ -80,7 +100,7 @@ builder.Services.AddCors(options =>
 
 
 // =====================================================
-// BUILD APPLICATION
+// BUILD
 // =====================================================
 
 var app = builder.Build();
@@ -102,7 +122,6 @@ if (!app.Environment.IsDevelopment())
 // HTTPS
 // =====================================================
 
-// Redirect HTTP requests to HTTPS.
 app.UseHttpsRedirection();
 
 
@@ -110,7 +129,6 @@ app.UseHttpsRedirection();
 // STATIC FILES
 // =====================================================
 
-// Allows ASP.NET Core to serve files from wwwroot.
 app.UseStaticFiles();
 
 
@@ -125,8 +143,6 @@ app.UseRouting();
 // CORS
 // =====================================================
 
-// Must be placed after UseRouting()
-// and before the endpoints are mapped.
 app.UseCors("ReactPolicy");
 
 
@@ -138,33 +154,15 @@ app.UseAuthorization();
 
 
 // =====================================================
-// API CONTROLLERS
+// API
 // =====================================================
-
-// Examples:
-//
-// GET /Products/api
-// GET /Products/api/{id}
-//
-// POST /Products/Create
-// POST /Products/Delete
-//
-// GET /api/auth/register
-// GET /api/auth/login
 
 app.MapControllers();
 
 
 // =====================================================
-// MVC ROUTING
+// MVC
 // =====================================================
-
-// Default MVC route:
-//
-// /
-// /Home
-// /Home/Index
-// /Home/Index/{id}
 
 app.MapControllerRoute(
     name: "default",
@@ -173,8 +171,7 @@ app.MapControllerRoute(
 
 
 // =====================================================
-// APPLICATION START
+// START
 // =====================================================
 
 app.Run();
-

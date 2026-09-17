@@ -1,0 +1,15 @@
+.vs/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+
+# Visual Studio publish profiles
+**/*.pubxml
+**/*.pubxml.user
+
+# Local Azure Functions settings
+**/local.settings.json
+
+# Development configuration
+**/appsettings.Development.json

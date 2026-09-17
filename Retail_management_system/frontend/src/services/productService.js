@@ -2,6 +2,7 @@
 // PRODUCT API SERVICE
 // =====================================================
 
+// Azure ASP.NET Core API
 const API_URL =
     "https://retailmanagementsystem20260813213958-geeffwavcrbrfjhc.southafricanorth-01.azurewebsites.net/Products/api";
 
@@ -12,51 +13,67 @@ const API_URL =
 
 export async function getProducts() {
 
-    console.log(
-        "Calling Azure API:",
-        API_URL
-    );
+    console.log("======================================");
+    console.log("GET PRODUCTS");
+    console.log("======================================");
+
+    console.log("Frontend URL:", window.location.origin);
+    console.log("Calling Azure API:", API_URL);
 
     try {
 
-        const response =
-            await fetch(API_URL);
+        const response = await fetch(API_URL, {
+            method: "GET",
+            headers: {
+                "Accept": "application/json"
+            }
+        });
 
-        console.log(
-            "Response status:",
-            response.status
-        );
+        console.log("API Status:", response.status);
+        console.log("API Status Text:", response.statusText);
 
         if (!response.ok) {
 
             throw new Error(
-                `API returned status ${response.status}`
+                `API returned HTTP ${response.status} ${response.statusText}`
             );
         }
 
-        const data =
-            await response.json();
+        const data = await response.json();
+
+        console.log("Products received:", data);
+
+        if (!Array.isArray(data)) {
+
+            console.error(
+                "API did not return an array:",
+                data
+            );
+
+            throw new Error(
+                "The API returned an invalid product list."
+            );
+        }
 
         console.log(
-            "Products received:",
-            data
+            `Successfully loaded ${data.length} products.`
         );
 
         return data;
 
-    } catch (error) {
+    }
+    catch (error) {
 
-        console.error(
-            "FETCH PRODUCTS ERROR:",
-            error
-        );
+        console.error("======================================");
+        console.error("GET PRODUCTS ERROR");
+        console.error("======================================");
 
-        throw new Error(
-            "Unable to connect to the product server.",
-            {
-                cause: error
-            }
-        );
+        console.error("API:", API_URL);
+        console.error("Frontend:", window.location.origin);
+        console.error("Error:", error);
+        console.error("Message:", error?.message);
+
+        throw error;
     }
 }
 
@@ -67,29 +84,43 @@ export async function getProducts() {
 
 export async function getProduct(id) {
 
+    const url = `${API_URL}/${id}`;
+
+    console.log("======================================");
+    console.log("GET SINGLE PRODUCT");
+    console.log("======================================");
+
+    console.log("Calling:", url);
+
     try {
 
-        const response =
-            await fetch(
-                `${API_URL}/${id}`
-            );
-
-        if (!response.ok) {
-
-            if (response.status === 404) {
-
-                throw new Error(
-                    "Product not found."
-                );
+        const response = await fetch(url, {
+            method: "GET",
+            headers: {
+                "Accept": "application/json"
             }
+        });
+
+        console.log(
+            "Product API status:",
+            response.status
+        );
+
+        if (response.status === 404) {
 
             throw new Error(
-                `API returned status ${response.status}`
+                "Product not found."
             );
         }
 
-        const product =
-            await response.json();
+        if (!response.ok) {
+
+            throw new Error(
+                `API returned HTTP ${response.status} ${response.statusText}`
+            );
+        }
+
+        const product = await response.json();
 
         console.log(
             "Product received:",
@@ -98,18 +129,14 @@ export async function getProduct(id) {
 
         return product;
 
-    } catch (error) {
+    }
+    catch (error) {
 
         console.error(
-            "FETCH PRODUCT ERROR:",
+            "GET PRODUCT ERROR:",
             error
         );
 
-        throw new Error(
-            "Unable to retrieve the product.",
-            {
-                cause: error
-            }
-        );
+        throw error;
     }
 }

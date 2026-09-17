@@ -1,6 +1,12 @@
-﻿using Azure.Storage.Files.Shares;
+﻿
+using Azure.Storage.Files.Shares;
 using Azure.Storage.Files.Shares.Models;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Retail_management_system.Services
 {
@@ -50,10 +56,9 @@ namespace Retail_management_system.Services
                 byte[] data =
                     Encoding.UTF8.GetBytes(logEntry);
 
-                // Create the Azure File with the correct size
-                await fileClient.CreateAsync(data.Length);
+                await fileClient.CreateAsync(
+                    data.Length);
 
-                // Upload the contents
                 using MemoryStream stream =
                     new MemoryStream(data);
 
@@ -76,21 +81,20 @@ namespace Retail_management_system.Services
             string existingLog =
                 await reader.ReadToEndAsync();
 
-            // Add the new entry
+            // Add the new log entry
             string completeLog =
                 existingLog + logEntry;
 
             byte[] completeData =
                 Encoding.UTF8.GetBytes(completeLog);
 
-
             // ==========================================
-            // RESIZE EXISTING FILE
+            // RECREATE / RESIZE EXISTING FILE
             // ==========================================
 
-            await fileClient.CreateAsync(
-                completeData.Length);
-
+            // Delete existing file if any, then recreate with the new size
+            await fileClient.DeleteIfExistsAsync();
+            await fileClient.CreateAsync(completeData.Length);
 
             // ==========================================
             // UPLOAD COMPLETE FILE
@@ -102,7 +106,6 @@ namespace Retail_management_system.Services
             await fileClient.UploadAsync(
                 uploadStream);
         }
-
 
         // ==========================================
         // GET TODAY'S LOG
@@ -130,7 +133,6 @@ namespace Retail_management_system.Services
             return await reader.ReadToEndAsync();
         }
 
-
         // ==========================================
         // GET ALL LOG FILES
         // ==========================================
@@ -139,9 +141,7 @@ namespace Retail_management_system.Services
         {
             var files = new List<string>();
 
-            await foreach (
-                ShareFileItem item
-                in _directoryClient.GetFilesAndDirectoriesAsync())
+            await foreach (ShareFileItem item in _directoryClient.GetFilesAndDirectoriesAsync())
             {
                 if (!item.IsDirectory)
                 {
@@ -151,5 +151,6 @@ namespace Retail_management_system.Services
 
             return files;
         }
+
     }
 }

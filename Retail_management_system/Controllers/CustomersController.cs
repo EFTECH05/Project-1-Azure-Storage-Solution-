@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Retail_management_system.Models;
 using Retail_management_system.Services;
 
@@ -7,11 +8,14 @@ namespace Retail_management_system.Controllers
     public class CustomersController : Controller
     {
         private readonly CustomerTableService _customerTableService;
+        private readonly ApplicationLogService _applicationLogService;
 
         public CustomersController(
-            CustomerTableService customerTableService)
+            CustomerTableService customerTableService,
+            ApplicationLogService applicationLogService)
         {
             _customerTableService = customerTableService;
+            _applicationLogService = applicationLogService;
         }
 
         // =====================================================
@@ -55,6 +59,10 @@ namespace Retail_management_system.Controllers
                 customer
             );
 
+            await _applicationLogService.WriteLogAsync(
+                $"Customer created successfully. Name: {customer.Name}, Email: {customer.Email}"
+            );
+
             return RedirectToAction(
                 nameof(Index)
             );
@@ -75,9 +83,14 @@ namespace Retail_management_system.Controllers
                 rowKey
             );
 
+            await _applicationLogService.WriteLogAsync(
+                $"Customer deleted successfully. PartitionKey: {partitionKey}, RowKey: {rowKey}"
+            );
+
             return RedirectToAction(
                 nameof(Index)
             );
         }
     }
 }
+
