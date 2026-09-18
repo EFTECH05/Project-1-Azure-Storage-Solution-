@@ -1,3 +1,17 @@
+API TEST WITH POSTMAN 
+<img width="1362" height="759" alt="AZURE TESTAPI" src="https://github.com/user-attachments/assets/2f7163b0-7a6b-486c-8923-bebd977373dd" />
+
+<img width="1356" height="752" alt="ProductFunctionAPI" src="https://github.com/user-attachments/assets/615db945-2945-4b40-873b-349f3152072b" />
+
+<img width="1342" height="767" alt="APIBLOSTORAGETest" src="https://github.com/user-attachments/assets/200c353a-62fe-4323-83f4-37359dfeb1eb" />
+<img width="1365" height="767" alt="ORDERFUNCTIONTESTAPI" src="https://github.com/user-attachments/assets/966579ed-4b4a-4fdb-b459-dedb81da40ad" />
+
+
+
+
+
+
+
 Frontend 
 <img width="1354" height="721" alt="image" src="https://github.com/user-attachments/assets/107372f7-9ef8-47b6-a8b3-0fde952f118f" />
 backend 
